@@ -212,6 +212,11 @@ h1 {
   font-size: 19px;
   color: #FFFFFF;
   margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #117b9b;
 }
 
 .not-registered-link {
