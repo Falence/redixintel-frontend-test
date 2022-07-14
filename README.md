@@ -1,5 +1,10 @@
 # RedixIntel Frontend Test
+The following website collects users' names and emails, save them and send them an emil
+
+<br>
+<br>
 Here is the [Live website](https://falence.github.io/redixintel-frontend-test/)
+<br>
 **PS:** I didn't make it responsive yet.
 
 ### Frontend
