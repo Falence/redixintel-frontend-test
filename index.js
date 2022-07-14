@@ -20,8 +20,10 @@ form.addEventListener('submit', (e) => {
       alert(`Hey ${name.value}, we've sent an email to ${email.value}.`);
       name.value = '';
       email.value = '';
+    } else if (xhr.responseText === 'exists') {
+      alert(`The email: ${email.value} has already been taken`);
     } else {
-      alert('Hmmm! Somrthing went wrong!');
+      alert('Hmmmm! Something went wrong. Relax it not your fault!');
     }
   }
   xhr.send(JSON.stringify(data));
