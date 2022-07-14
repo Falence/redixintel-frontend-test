@@ -27,8 +27,8 @@ header img {
 }
 
 .main-container {
-  /* width: 60%; */
-  padding: 0 300px;
+  width: 70%;
+  /* padding: 0 300px; */
   margin: 0 auto;
 }
 
@@ -92,6 +92,8 @@ h1 {
 .box {
   background-color: #F9F9F9;
   padding: 15px 20px;
+  width: 50%;
+  overflow: none;
 }
 
 .box:first-child {
@@ -180,6 +182,7 @@ h1 {
 }
 
 .form input {
+  width: 100%;
   border: none;
   outline: none;
   border-bottom: 2px solid #B0B0B0;
@@ -240,7 +243,9 @@ h1 {
   background-color: #000;
   color: #FFFFFF;
   font-weight: 300;
-  padding: 30px 300px;
+  padding: 30px 0px;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .help {
